@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Online Course Enrollment</h1>
+</header>
+
+<main>
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Student Information</legend>
+
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="course">Select Course:</label><br>
+                <input type="text" id="course" name="course" list="course-list" required>
+
+                <datalist id="course-list">
+                    <option value="HTML Basics">
+                    <option value="CSS Fundamentals">
+                    <option value="JavaScript Essentials">
+                    <option value="React Development">
+                    <option value="Python Programming">
+                </datalist>
+            </p>
+
+            <p>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" min="16" max="60" required>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Skill Level</legend>
+
+            <p>
+                <label for="skill">Select Your Skill Level (1-10):</label><br>
+                <input type="range" id="skill" name="skill" min="1" max="10" value="5">
+            </p>
+
+            <p>
+                Skill Level Indicator:<br>
+                <meter min="1" max="10" value="5">
+                    5 out of 10
+                </meter>
+                <br>
+                Beginner -------- I
