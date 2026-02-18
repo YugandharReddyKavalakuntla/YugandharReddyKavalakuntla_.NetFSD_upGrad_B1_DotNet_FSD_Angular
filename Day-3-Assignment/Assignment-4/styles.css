@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color:#003366;
+}
+
+.card {
+    border:1px solid #003366;
+    padding:10px;
+    margin:10px;
+}
+
+.sidebar ul li {
+    padding:5px;
+}
+
+input[type="password"] {
+    padding:5px;
+}
+
+tr:hover {
+    background-color:#e6f2ff;
+}
+
+button:active {
+    background-color:#001a33;
+    color:white;
+}
+
+.debit {color:red;}
+.credit {color:green;}
+
+body {font-family:Arial;}
+header {background:#003366;color:white;padding:10px;}
+.sidebar {float:left;width:150px;padding:10px;}
+.main-content {margin-left:160px;padding:10px;}
+footer {clear:both;background:#003366;color:white;text-align:center;padding:10px;margin-top:10px;}

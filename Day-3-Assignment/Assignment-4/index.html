@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SecureBank Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .balance-highlight {
+            background-color: #e6fff2;
+            border:1px solid green;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+
+<div style="background:red;color:white;padding:5px;text-align:center;">
+    ⚠️ Maintenance tonight 12AM–2AM
+</div>
+
+<header>
+    <h1>SecureBank</h1>
+    <div>Welcome, John</div>
+</header>
+
+<div class="sidebar">
+    <ul>
+        <li>Dashboard</li>
+        <li>Accounts</li>
+        <li>Transactions</li>
+        <li>Settings</li>
+    </ul>
+</div>
+
+<div class="main-content">
+
+    <div class="card balance-highlight">
+        <h3>Account Balance</h3>
+        <p>12,450</p>
+    </div>
+    <div class="card">
+        <h3>Savings</h3>
+        <p>8,200</p>
+    </div>
+
+    <h2>Recent Transactions</h2>
+    <table>
+        <tr>
+            <th>Date</th><th>Description</th><th>Type</th><th>Amount</th>
+        </tr>
+        <tr>
+            <td>15 Feb</td><td>Amazon</td><td class="debit">Debit</td><td class="debit">-120</td>
+        </tr>
+        <tr>
+            <td>14 Feb</td><td>Salary</td><td class="credit">Credit</td><td class="credit">+3000</td>
+        </tr>
+    </table>
+
+    <h2>Login</h2>
+    <form>
+        <input type="text" placeholder="Username"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+        <button>Login</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2026 SecureBank</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+h1, h2, h3 {
+    color: #004080;
+}
+
+p {
+    font-size: 14px;
+}
+
+.service-card {
+    border: 2px solid #0077cc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.services p {
+    color: #555;
+}
+
+button:hover {
+    background-color: #005fa3;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #0077cc;
+}
+
+body {
+    background-color: #f4f9ff;
+    font-family: Arial;
+}
+
+header, footer {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner {
+    background-color: #cce6ff;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact {
+    background-color: #e6f2ff;
+    padding: 10px;
+}

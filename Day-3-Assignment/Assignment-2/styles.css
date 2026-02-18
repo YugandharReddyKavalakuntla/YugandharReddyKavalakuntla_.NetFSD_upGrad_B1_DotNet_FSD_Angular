@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.course {
+    border: 1px solid #003366;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+#hero {
+    background-color: #e6f2ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.course > h3 {
+    color: #003366;
+}
+
+h3 + p {
+    font-size: 14px;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+li:first-child {
+    color: #ffcc00;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f4f9ff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+button {
+    padding: 5px 10px;
+}
