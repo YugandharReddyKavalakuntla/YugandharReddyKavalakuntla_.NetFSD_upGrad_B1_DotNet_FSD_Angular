@@ -1,0 +1,149 @@
+<!-- Problem 1: Personal Notes Saver using LocalStorage (Level-1)
+Scenario You are building a simple web page where users can write daily notes and save them in their browser without using a server.
+📌 Requirements
+	•	A textarea for writing notes.
+	•	A Save button (using onclick).
+	•	A Clear button.
+	•	Notes must:
+Be stored in localStorage
+Automatically load when the page refreshes
+	•	Display stored note on page load.
+
+🛠️ Technical Constraints
+	•	Must use:
+	•	onclick inline event
+	•	localStorage.setItem()
+	•	localStorage.getItem()
+	•	localStorage.removeItem()
+	•	No backend/database.
+	•	Pure HTML + JavaScript only.
+	•	Data stored as key-value pair.
+
+🎯 Learning Outcome
+You should be able to:
+	•	Inline event handling (onclick)
+	•	Browser Storage APIs
+	•	Storing & retrieving key-value data
+	•	Page load event handling
+	•	Basic DOM manipulation
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function saveNotes(){
+            let notes = document.getElementById("t1").value;
+            localStorage.setItem("mynotes",notes);
+            alert("Notes Saved");
+
+        }
+
+        function clearNotes(){
+            localStorage.removeItem("mynotes");
+            document.getElementById("previousnotes").innerText ="";
+            document.getElementById("t1").value = "";
+          
+            alert("Notes was Deleted")
+
+        }
+
+
+        function read(){
+            let oldnotes = localStorage.getItem("mynotes");
+
+            if(oldnotes){
+                  document.getElementById("previousnotes").innerText = oldnotes;
+                document.getElementById("t1").value =oldnotes;
+            }  
+        }
+
+        window.onload = read;
+    </script>
+ </head>
+ <body>
+
+    <div id="previousnotes"></div>
+
+    <input type="text" name="notes" id="t1" placeholder="Free space for notes...">
+    <input type="submit" value="submit"  id="sub" onclick="saveNotes()">
+    <input type="button" value="Clear" id="clear"  onclick="clearNotes()">
+
+    
+ </body>
+ </html> 
+
+
+<!-- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Notes Saver</title>
+
+    <script>
+        // Save Notes
+        function saveNotes() {
+            let notes = document.getElementById("t1").value.trim();
+
+            if (notes === "") {
+                alert("Please write something before saving!");
+                return;
+            }
+
+            localStorage.setItem("mynotes", notes);
+            document.getElementById("previousnotes").innerText = notes;
+
+            alert("Notes Saved Successfully");
+        }
+
+        // Clear Notes
+        function clearNotes() {
+            localStorage.removeItem("mynotes");
+
+            document.getElementById("t1").value = "";
+            document.getElementById("previousnotes").innerText = "";
+
+            alert("Notes Deleted Successfully");
+        }
+
+        // Read Notes on Page Load
+        function loadNotes() {
+            let savedNotes = localStorage.getItem("mynotes");
+
+            if (savedNotes) {
+                document.getElementById("previousnotes").innerText = savedNotes;
+                document.getElementById("t1").value = savedNotes;
+            }
+        }
+
+        // Auto-load when page opens
+        window.onload = loadNotes;
+    </script>
+</head>
+
+<body>
+
+    <h2>📝 Personal Notes Saver</h2>
+
+    <div>
+        <textarea id="t1" rows="6" cols="40" 
+        placeholder="Write your daily notes here..."></textarea>
+        <br><br>
+
+        <input type="button" value="Save" onclick="saveNotes()">
+        <input type="button" value="Clear" onclick="clearNotes()">
+    </div>
+
+    <hr>
+
+    <h3>Saved Note:</h3>
+    <div id="previousnotes" style="white-space: pre-wrap; color: blue;"></div>
+
+</body>
+</html> -->

@@ -1,0 +1,96 @@
+<!-- Problem 1
+Assessment Goal: Ensure learners understand responsiveness and screen adaptability.
+Hands-on Tasks:
+	•	Add viewport meta tag to the HTML page
+	•	Use media queries to:
+	•	Change background color on mobile screen
+	•	Adjust font size for smaller screens
+	•	Convert navigation into vertical layout on mobile
+	•	Test the page using browser responsive mode
+Expected Outcome: A webpage that looks different and readable on mobile and desktop screens. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SV Functional Hall</title>
+
+    <style>
+   
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            background-color: white;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+     
+        @media (max-width: 600px) {
+
+            
+            body {
+                background-color: #f0f0f0;
+                font-size: 14px;  
+            }
+
+            
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            header {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome To SV Functional Hall - Kurnool</h1>
+
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <p style="text-align:center; padding:20px;">
+            Book your events with us. Spacious hall, modern facilities and best service.
+        </p>
+    </main>
+
+    <footer style="text-align:center; padding:10px;">
+        © 2026 SV Functional Hall
+    </footer>
+
+</body>
+</html>

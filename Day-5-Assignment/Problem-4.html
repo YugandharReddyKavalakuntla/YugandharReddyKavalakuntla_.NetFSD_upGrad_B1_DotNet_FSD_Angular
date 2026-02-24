@@ -1,0 +1,85 @@
+<!-- 
+Problem 4: Dynamic Student Profile Manager (Level-2)
+Scenario Create a mini student profile system where details are stored in an object and displayed dynamically using DOM manipulation.
+📌 Requirements
+Create a student object with:
+	•	name
+	•	rollNo
+	•	marks
+ Create a function updateStudentProfile(studentObj):
+	•	Accepts the object as a parameter.
+	•	Displays details in a styled <div>.
+Add another function updateMarks(newMarks):
+	•	Updates marks and refreshes the display.
+
+🛠️ Technical Constraints
+	•	Student object must be declared in global scope.
+	•	Functions should update object values using parameters.
+	•	DOM should update without page refresh.
+
+🎯 Learning Outcome
+You will be able to:
+	•	Deep understanding of object manipulation.
+	•	Function interaction with shared data.
+	•	Real-world use of DOM updates and scope handling.
+
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile Manager</title>
+
+    <style>
+        .profile-box {
+            border: 2px solid #333;
+            width: 300px;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 6px;
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Profile</h2>
+
+    <div id="studentProfile" class="profile-box"></div>
+
+    <br>
+
+    <button id="updateMarksBtn">Update Marks</button>
+
+    <script>
+        let student = {
+            name: "Rahul",
+            rollNo: 101,
+            marks: 85
+        };
+
+        function updateStudentProfile(studentObj) {
+            let profileDiv = document.getElementById("studentProfile");
+
+            profileDiv.innerHTML =
+                "<p><strong>Name:</strong> " + studentObj.name + "</p>" +
+                "<p><strong>Roll No:</strong> " + studentObj.rollNo + "</p>" +
+                "<p><strong>Marks:</strong> " + studentObj.marks + "</p>";
+        }
+
+        function updateMarks(newMarks) {
+            student.marks = newMarks;
+            updateStudentProfile(student);
+        }
+
+        updateStudentProfile(student);
+
+        document.getElementById("updateMarksBtn").addEventListener("click", function () {
+            updateMarks(92);
+        });
+    </script>
+
+</body>
+</html>

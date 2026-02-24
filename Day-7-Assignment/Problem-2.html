@@ -1,0 +1,123 @@
+<!--  Problem 2: Live Form Validation with Events (Level-1)
+Scenario
+Create a simple registration form that validates user input when fields change.
+📌 Requirements
+	•	Fields:
+Name
+Email
+Age
+	•	Use:
+onchange
+onclick
+	•	Validate:
+Name cannot be empty
+Email must contain "@"
+Age must be greater than 18
+	•	Display validation message dynamically.
+	•	Store valid user data in sessionStorage.
+🛠️ Technical Constraints
+	•	Must use inline onchange events.
+	•	Store valid data using:
+sessionStorage.setItem()
+	•	No external libraries.
+	•	Use basic JavaScript only.
+🎯 Learning Outcome
+You will be able to:
+	•	onchange event usage
+	•	Form validation logic
+	•	Difference between localStorage and sessionStorage
+	•	Dynamic DOM updates
+
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Form Validation</title>
+</head>
+<body>
+
+<form>
+    <fieldset style="width: 350px;">
+        <legend>Registration Form</legend>
+
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" id="uname" onchange="validateName()">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" id="email" onchange="validateEmail()">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" id="age" onchange="validateAge()">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="saveData()">Register</button>
+                </td>
+            </tr>
+        </table>
+
+        <p id="msg" style="color:red;"></p>
+    </fieldset>
+</form>
+
+<script>
+    function validateName() {
+        let name = document.getElementById("uname").value;
+        if (name === "") {
+            document.getElementById("msg").innerText = "Name cannot be empty";
+            return false;
+        }
+        document.getElementById("msg").innerText = "";
+        return true;
+    }
+
+    function validateEmail() {
+        let email = document.getElementById("email").value;
+        if (!email.includes("@")) {
+            document.getElementById("msg").innerText = "Email must contain @";
+            return false;
+        }
+        document.getElementById("msg").innerText = "";
+        return true;
+    }
+
+    function validateAge() {
+        let age = document.getElementById("age").value;
+        if (age <= 18) {
+            document.getElementById("msg").innerText = "Age must be greater than 18";
+            return false;
+        }
+        document.getElementById("msg").innerText = "";
+        return true;
+    }
+
+    function saveData() {
+        if (validateName() && validateEmail() && validateAge()) {
+            sessionStorage.setItem("name", uname.value);
+            sessionStorage.setItem("email", email.value);
+            sessionStorage.setItem("age", age.value);
+
+            document.getElementById("msg").style.color = "green";
+            document.getElementById("msg").innerText = "Registration Successful!";
+        }
+    }
+</script>
+
+</body>
+</html>

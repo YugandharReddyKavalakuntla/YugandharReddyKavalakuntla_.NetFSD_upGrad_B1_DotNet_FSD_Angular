@@ -1,0 +1,77 @@
+<!-- Problem 3: Counter App with Scope Control (Level-2)
+Scenario Build a counter application where users can increment and reset a value. This problem focuses on variable scope and DOM manipulation.
+📌 Requirements
+Display a counter value starting from 0.
+Create two buttons:
+	•	Increment
+	•	Reset
+ Use:
+	•	A global variable to store counter value.
+	•	A function incrementCounter(step) that:
+	•	Accepts step value as a parameter.
+	•	Updates the counter.
+Reset button should reset the counter to 0.
+
+🛠️ Technical Constraints
+	•	Counter value must be maintained outside the function (global scope).
+	•	DOM updates must happen inside functions only.
+	•	No inline JavaScript in HTML.
+
+🎯 Learning Outcome
+Learners should be able to:
+	•	Understand variable scope (global vs local).
+	•	Apply function parameters in real scenarios.
+	•	Control UI behavior using JavaScript functions.
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter App</title>
+</head>
+<body>
+
+    <h2>Counter Application</h2>
+
+    <!-- Display Counter -->
+    <p id="counterValue">0</p>
+
+    <!-- Buttons -->
+    <button id="incrementBtn">Increment</button>
+    <button id="resetBtn">Reset</button>
+
+    <script>
+        // Global variable (maintains value across functions)
+        let counter = 0;
+
+        // Function to update counter display
+        function updateDisplay() {
+            document.getElementById("counterValue").innerText = counter;
+        }
+
+        // Function to increment counter
+        function incrementCounter(step) {
+            counter = counter + step;
+            updateDisplay();
+        }
+
+        // Function to reset counter
+        function resetCounter() {
+            counter = 0;
+            updateDisplay();
+        }
+
+        // Attach event listeners (NO inline JS)
+        document.getElementById("incrementBtn").addEventListener("click", function () {
+            incrementCounter(1);
+        });
+
+        document.getElementById("resetBtn").addEventListener("click", function () {
+            resetCounter();
+        });
+    </script>
+
+</body>
+</html>
