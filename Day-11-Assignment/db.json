@@ -1,0 +1,10 @@
+{
+  "books": [
+    { "id": 1, "name": "Yugandhar Reddy Kavalakuntla", "location": "kurnool" },
+    { "id": 2, "name": " santhu", "location": "sidipet" },
+    { "id": 3, "name": " nikitha", "location": "bangalore" },
+    { "id": 4, "name": " ganga bhavani", "location": "east godavari" }
+
+
+  ]
+}

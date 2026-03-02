@@ -1,0 +1,104 @@
+<!-- Lab 1: jQuery Selectors Practice
+ Objective
+Understand how jQuery selects elements.
+ Tasks
+1. Select all <p> elements and change text color to blue.
+2. Select element by ID and change background color.
+3. Select elements by class and add border.
+4. Select first and last list items.
+5. Hide all even rows in a table. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery4.0.js"></script>
+
+    <script>
+        $(()=>{
+
+            $('p').css('color', 'blue');
+
+            $('#place').css('background-color','yellow');
+
+            $(".sv1").css('border','2px solid black');
+
+            $('#list1 li:first').css('color','blue');
+
+            $('#list1 li:last').css('color','green');
+
+            $('#table1 tr:even:not(:first)').hide();
+
+        })
+
+
+    </script>
+
+
+
+
+</head>
+<body>
+
+
+
+    <p class="sv1">Hello World</p>
+    <p class="sv1">Welcome to SV Function Hall</p>
+    <p id="place" class="sv1">Kurnool</p>
+    <p class="sv1">AndhraPradesh</p>
+    <p class="sv1">Thank you</p>
+
+
+
+    <ul id="list1">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+
+
+    <table id="table1">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Yugi</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Santhu</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Jannu</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>keerthana</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>deeksha</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>sreeja</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!-- Lab 2: DOM Manipulation
+ Objective
+Modify HTML dynamically.
+ Tasks
+1. Change text using .text()
+2. Change HTML using .html()
+3. Change input value using .val()
+4. Add new element using .append()
+5. Remove element using .remove()
+ Assignment
+Create a Dynamic Todo List:
+• Add task
+• Delete task
+• Clear all tasks -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="jquery4.0.js"></script>
+
+    <script>
+
+        $(()=>{
+            $('#p1').text("Hello Good Evening");
+
+            $('#p2').html("<ol> <li> Change from paragraph </li> </ol>");
+
+
+            $('#box1').val("Stop");
+
+
+            $('#list1').append("<li>three</li>");
+
+            $('#p3').remove();
+
+        })
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+    <p id="p1">Hello Good Morning</p>
+
+    <p id="p2">Good to know</p>
+
+   <label for="inp1">name :</label> <input type="text" name="dummy" id="box1" value="start"> 
+
+
+   <p id="p3">okay okay</p>
+
+
+    <ol id="list1">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+  
+
+
+
+
+    
+</body>
+</html>

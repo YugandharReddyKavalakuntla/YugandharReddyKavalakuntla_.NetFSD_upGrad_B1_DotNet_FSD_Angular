@@ -1,0 +1,86 @@
+<!-- Lab 4: jQuery Effects
+Objective
+Work with animations.
+Tasks
+1. Hide/Show using .hide() and .show()
+2. Toggle visibility.
+3. Use .fadeIn() and .fadeOut()
+4. Use .slideDown() and .slideUp()
+5. Create custom animation using .animate() -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab 4: jQuery Effects</title>
+<script src="jquery4.0.js"></script>
+<style>
+    #box1, #box2, #box3, #box4, #box5 {
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+        margin: 10px;
+        text-align: center;
+        line-height: 150px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<h2>Lab 4: jQuery Effects</h2>
+
+<div id="box1">Box 1</div>
+<button id="hideBtn">Hide Box 1</button>
+<button id="showBtn">Show Box 1</button>
+
+<div id="box2">Box 2</div>
+<button id="toggleBtn">Toggle Box 2</button>
+
+<div id="box3">Box 3</div>
+<button id="fadeOutBtn">Fade Out</button>
+<button id="fadeInBtn">Fade In</button>
+
+<div id="box4">Box 4</div>
+<button id="slideDownBtn">Slide Down</button>
+<button id="slideUpBtn">Slide Up</button>
+
+<div id="box5">Box 5</div>
+<button id="animateBtn">Animate</button>
+
+<script>
+$(document).ready(function(){
+
+    $('#hideBtn').click(()=>$('#box1').hide());
+    $('#showBtn').click(()=>$('#box1').show());
+
+    $('#toggleBtn').click(()=>$('#box2').toggle());
+
+    $('#fadeOutBtn').click(()=>$('#box3').fadeOut(500));
+    $('#fadeInBtn').click(()=>$('#box3').fadeIn(500));
+
+    $('#slideDownBtn').click(()=>$('#box4').slideDown(500));
+    $('#slideUpBtn').click(()=>$('#box4').slideUp(500));
+
+    $('#animateBtn').click(()=>{
+        $('#box5').animate({
+            left: '250px',
+            height: '200px',
+            width: '200px',
+            opacity: 0.5
+        }, 1000)
+        .animate({
+            left: '0px',
+            height: '150px',
+            width: '150px',
+            opacity: 1
+        }, 1000);
+    });
+
+});
+</script>
+
+</body>
+</html>

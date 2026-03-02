@@ -1,0 +1,88 @@
+<!-- Lab 3: Event Handling
+ Objective
+Handle user interactions.
+ Tasks
+1. Show alert on button click.
+2. Change image on hover.
+3. Double click to hide paragraph.
+4. Show message when input loses focus.
+5. Prevent form submission -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery4.0.js"></script>
+
+    <script>
+        $(()=>{
+            $('#btn1').click(()=>{
+                alert("hello....");
+            })
+
+            $('#img1').hover(function(){
+                $(this).attr("src", "logo-1.png");
+                
+            } ,
+
+            function(){
+                $(this).attr("src", "logo.png");
+            })
+
+
+            $('p').dblclick(function(){
+                $(this).hide();
+            })
+
+
+            $("#input1").blur(function(){
+                alert("input lose function")
+            })
+
+
+
+            $('#form1').submit(function(event){
+                event.preventDefault();
+                alert("Form Submission prevented");
+            })
+
+
+        })
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+
+    <button id="btn1">click me...!</button>
+
+    <img src="logo.png" alt="cts" id="img1">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi odio quae harum repellendus perferendis laboriosam architecto corrupti quaerat aliquam facere excepturi labore esse culpa velit pariatur exercitationem, numquam eaque molestias.
+    Quas et quis dignissimos eligendi iste unde? Similique incidunt, temporibus numquam iure officia alias, consectetur voluptas, exercitationem cum asperiores reiciendis voluptatum accusantium deleniti. Iusto dignissimos veritatis temporibus, eaque minus eius!
+    Iure, ipsum consequuntur. Odit vitae, delectus veniam consequatur dignissimos blanditiis tempora quibusdam? Cupiditate quas suscipit, sint ex magnam quibusdam labore asperiores fuga eum molestiae blanditiis porro non esse. Tenetur, a.
+    Esse non facere laboriosam vitae accusantium laborum neque, accusamus perspiciatis iusto dicta dolorum modi, cumque adipisci enim. Illum atque, at temporibus quia repellendus doloribus perferendis enim officia! Hic, sapiente obcaecati.
+    A quam nam impedit eveniet dolore commodi reiciendis aliquam error id ipsam quidem, qui nemo corrupti dicta iure aspernatur hic quia quaerat rerum recusandae eos! Deleniti, totam. Rerum, repellat accusamus!</p>
+
+
+    <input type="text" id="input1" placeholder="Type something">
+
+
+    <form action="#" id="form1">
+    <input type="text" id="input2" placeholder="Type something">
+    <button type="submit">Submit</button>
+</form>
+
+
+
+    
+</body>
+</html>
