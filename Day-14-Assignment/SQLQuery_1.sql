@@ -131,13 +131,19 @@ INSERT INTO stocks VALUES
 SELECT * FROM customers;
 SELECT * FROM orders;
 SELECT * FROM products;
+SELECT * FROM stocks;
+SELECT * FROM stores;
+SELECT * FROM brands;
+SELECT * FROM categories;
+SELECT * FROM order_items;
 
 
 
 
 -- Level-1: Problem 1 - Basic Customer Order Report
 -- Scenario:
--- The store manager wants a simple report showing customer orders along with their order dates and status. This report will help track pending and completed orders.
+-- The store manager wants a simple report showing customer orders along with their order dates and status. 
+-- This report will help track pending and completed orders.
 -- 📌 Requirements
 -- 1. Retrieve customer first name, last name, order_id, order_date, and order_status.
 -- 2. Display only orders with status Pending (1) or Completed (4).
@@ -150,13 +156,15 @@ SELECT * FROM products;
 -- Expectations:
 -- Students should write a correct query using joins and filters, and properly order the result set.
 -- 🎯 Learning Outcome 
--- Understand basic SELECT queries, filtering using WHERE conditions, logical operators, and sorting using ORDER BY clause with INNER JOIN.      
+-- Understand basic SELECT queries, filtering using WHERE conditions, logical operators, and sorting using ORDER BY clause with INNER JOIN.
 
 
 
+-- customer orders, dates, status
 
-
-
+SELECT c.first_name , c.last_name , o.order_id, o.order_date, o.order_status 
+from customers c INNER JOIN orders o on c.customer_id = o.customer_id 
+where o.order_status = 1 OR o.order_status= 4;
 
 
 
@@ -176,6 +184,21 @@ SELECT * FROM products;
 -- Students should correctly join multiple tables and apply filtering and sorting logic.
 -- 🎯 Learning Outcome 
 -- Learn multi-table joins, filtering numeric conditions, and sorting query results. 
+
+
+-- product , brand, category
+
+SELECT p.product_name , b.brand_name, c.category_name, p.model_year, p.list_price 
+from products p INNER JOIN brands b on p.brand_id = b.brand_id
+INNER JOIN  categories c on p.category_id = c.category_id
+where p.list_price > 500
+ORDER by p.list_price asc;
+
+
+
+
+
+
 
 
 
@@ -202,6 +225,19 @@ SELECT * FROM products;
 
 
 
+SELECT 
+    s.store_name,
+    SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS total_sales
+FROM stores s
+INNER JOIN orders o ON s.store_id = o.store_id
+INNER JOIN order_items oi ON o.order_id = oi.order_id
+WHERE o.order_status = 4
+GROUP BY s.store_name
+ORDER BY total_sales DESC;
+
+
+
+
 
 
 -- Level-2: Problem 2 - Product Stock and Sales Analysis
@@ -225,3 +261,15 @@ SELECT * FROM products;
 
 
 
+SELECT 
+    p.product_name,
+    st.store_name,
+    s.quantity AS stock_quantity,
+    ISNULL(SUM(oi.quantity), 0) AS total_quantity_sold
+FROM stocks s
+INNER JOIN stores st ON s.store_id = st.store_id
+INNER JOIN products p ON s.product_id = p.product_id
+LEFT JOIN order_items oi ON s.store_id = oi.order_id
+LEFT JOIN orders o ON oi.order_id = o.order_id AND o.store_id = s.store_id
+GROUP BY p.product_name, st.store_name, s.quantity
+ORDER BY p.product_name;
