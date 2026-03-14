@@ -45,6 +45,23 @@ namespace classassignment1{
             Biling2.CalculateTotalBill();
 
 
+            // Assignment -7
+
+                Nurse nurse1 = new Nurse
+            {
+                NurseId = 101,
+                NurseName = "Naima",
+                Department = "Emergency"
+            };
+
+            nurse1.Display();
+
+
+            // assignment-8
+            PatientRecord pr1 = new PatientRecord(101, "Yugandhar", 20, "Fracture");
+            pr1.DisplayPatientRecord();
+
+
 
 
             
