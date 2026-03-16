@@ -1,0 +1,15 @@
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.AssemblyInfoInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.AssemblyInfo.cs
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.csproj.CoreCompileInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.sourcelink.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/bin/Debug/net8.0/OOPAssignment
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/bin/Debug/net8.0/OOPAssignment.deps.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/bin/Debug/net8.0/OOPAssignment.runtimeconfig.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/bin/Debug/net8.0/OOPAssignment.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/bin/Debug/net8.0/OOPAssignment.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/refint/OOPAssignment.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/OOPAssignment.genruntimeconfig.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-21-Assignment/OOPAssignment/obj/Debug/net8.0/ref/OOPAssignment.dll
