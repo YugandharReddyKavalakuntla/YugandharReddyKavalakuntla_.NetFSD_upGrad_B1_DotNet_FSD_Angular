@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Student_Report_Card_Generator/1.0.0": {
+        "runtime": {
+          "Student_Report_Card_Generator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Student_Report_Card_Generator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

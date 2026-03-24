@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Register - EventSphere</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>EventSphere</h1>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="add-event.html">Add Event</a>
+</nav>
+
+</header>
+
+<main>
+
+<h2>Event Registration</h2>
+
+<!-- Event details -->
+<div id="eventDetails" class="event-details"></div>
+
+
+<!-- Registration form -->
+<form id="registrationForm">
+
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" name="participantName" required>
+    </div>
+
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" required>
+    </div>
+
+
+    <div class="form-group">
+        <label>Phone</label>
+        <input type="text" name="phone" required>
+    </div>
+
+
+    <button type="submit">Register</button>
+
+</form>
+
+</main>
+<!-- 
+<script type="module">
+
+import {
+    loadEventDetails,
+    handleRegistration
+} from "./js/controllers/registrationController.js"
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    loadEventDetails()
+
+})
+
+
+const form = document.getElementById("registrationForm")
+
+form.addEventListener("submit", (e) => {
+
+    e.preventDefault()
+
+    handleRegistration(form)
+
+})
+
+</script> -->
+
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>

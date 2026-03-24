@@ -1,0 +1,15 @@
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/bin/Debug/net8.0/Mini_Notepad
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/bin/Debug/net8.0/Mini_Notepad.deps.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/bin/Debug/net8.0/Mini_Notepad.runtimeconfig.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/bin/Debug/net8.0/Mini_Notepad.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/bin/Debug/net8.0/Mini_Notepad.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.AssemblyInfoInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.AssemblyInfo.cs
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.csproj.CoreCompileInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.sourcelink.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/refint/Mini_Notepad.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/Mini_Notepad.genruntimeconfig.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Mini_Notepad/obj/Debug/net8.0/ref/Mini_Notepad.dll

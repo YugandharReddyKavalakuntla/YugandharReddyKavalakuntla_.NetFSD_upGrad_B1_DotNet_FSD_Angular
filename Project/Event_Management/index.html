@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EventSphere - Event Management</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>EventSphere</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="add-event.html">Add Event</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h2>Available Events</h2>
+
+    <!-- Loader -->
+    <div id="loader" style="display:none;">Loading...</div>
+
+    <!-- Event List -->
+    <div id="eventList" class="event-container"></div>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+
+<!-- JavaScript Entry -->
+<!-- <script type="module">
+
+    import { loadEvents } from "./js/controllers/eventController.js"
+
+    document.addEventListener("DOMContentLoaded", () => {
+        loadEvents()
+    })
+
+</script> -->
+
+</body>
+
+</html>

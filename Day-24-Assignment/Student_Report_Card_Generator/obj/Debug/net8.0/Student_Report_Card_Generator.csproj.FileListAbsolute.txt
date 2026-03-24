@@ -1,0 +1,15 @@
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/bin/Debug/net8.0/Student_Report_Card_Generator
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/bin/Debug/net8.0/Student_Report_Card_Generator.deps.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/bin/Debug/net8.0/Student_Report_Card_Generator.runtimeconfig.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/bin/Debug/net8.0/Student_Report_Card_Generator.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/bin/Debug/net8.0/Student_Report_Card_Generator.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.AssemblyInfoInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.AssemblyInfo.cs
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.csproj.CoreCompileInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.sourcelink.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/refint/Student_Report_Card_Generator.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/Student_Report_Card_Generator.genruntimeconfig.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Student_Report_Card_Generator/obj/Debug/net8.0/ref/Student_Report_Card_Generator.dll

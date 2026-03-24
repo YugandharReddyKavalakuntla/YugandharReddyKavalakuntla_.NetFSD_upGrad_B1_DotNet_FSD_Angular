@@ -1,0 +1,15 @@
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/bin/Debug/net8.0/Employee_Log_Management_System
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/bin/Debug/net8.0/Employee_Log_Management_System.deps.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/bin/Debug/net8.0/Employee_Log_Management_System.runtimeconfig.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/bin/Debug/net8.0/Employee_Log_Management_System.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/bin/Debug/net8.0/Employee_Log_Management_System.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.AssemblyInfoInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.AssemblyInfo.cs
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.csproj.CoreCompileInputs.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.sourcelink.json
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/refint/Employee_Log_Management_System.dll
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.pdb
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/Employee_Log_Management_System.genruntimeconfig.cache
+/Users/sri/Documents/UPGRAD/3_Assignments/Day-24-Assignment/Employee_Log_Management_System/obj/Debug/net8.0/ref/Employee_Log_Management_System.dll

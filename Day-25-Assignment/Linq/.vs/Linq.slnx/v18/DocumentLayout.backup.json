@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|c:\\dotnet_fsd\\c#.net\\handson\\linq\\assignment4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|solutionrelative:assignment4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|c:\\dotnet_fsd\\c#.net\\handson\\linq\\linq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|solutionrelative:linq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|c:\\dotnet_fsd\\c#.net\\handson\\linq\\assignment3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|solutionrelative:assignment3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|c:\\dotnet_fsd\\c#.net\\handson\\linq\\assignment2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|solutionrelative:assignment2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|c:\\dotnet_fsd\\c#.net\\handson\\linq\\assignment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|solutionrelative:assignment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|c:\\dotnet_fsd\\c#.net\\handson\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85EC7E9-763C-4CB2-A0AC-24F5F3EAB6C2}|Linq.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Linq",
+              "DocumentMoniker": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Linq.csproj",
+              "RelativeDocumentMoniker": "Linq.csproj",
+              "ToolTip": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Linq.csproj",
+              "RelativeToolTip": "Linq.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-23T11:14:23.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assignment4.cs",
+              "DocumentMoniker": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment4.cs",
+              "RelativeDocumentMoniker": "Assignment4.cs",
+              "ToolTip": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment4.cs",
+              "RelativeToolTip": "Assignment4.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:59:00.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Assignment3.cs",
+              "DocumentMoniker": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment3.cs",
+              "RelativeDocumentMoniker": "Assignment3.cs",
+              "ToolTip": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment3.cs",
+              "RelativeToolTip": "Assignment3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:43:41.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Assignment2.cs",
+              "DocumentMoniker": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment2.cs",
+              "RelativeDocumentMoniker": "Assignment2.cs",
+              "ToolTip": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment2.cs",
+              "RelativeToolTip": "Assignment2.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:28:54.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Assignment1.cs",
+              "DocumentMoniker": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment1.cs",
+              "RelativeDocumentMoniker": "Assignment1.cs",
+              "ToolTip": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Assignment1.cs",
+              "RelativeToolTip": "Assignment1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:53:39.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DotNet_FSD\\C#.Net\\handson\\Linq\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T04:16:09.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

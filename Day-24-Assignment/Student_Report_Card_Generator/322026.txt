@@ -1,0 +1,6 @@
+Student Name: Yugandhar 
+Roll Number: 322026
+Marks: 95, 92, 99
+Total: 286
+Average: 95.33333333333333
+Grade: A
