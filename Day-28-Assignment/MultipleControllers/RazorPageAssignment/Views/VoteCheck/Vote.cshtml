@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "VoteEligilibity";
+}
+
+<div>
+    @{
+        int Age = Convert.ToInt32(ViewData["Age"]);
+        if(Age >= 18){
+            <h1> Eligible To Vote...</h1>
+        }else{
+            <h1>Not Eligible to vote...</h1>
+
+        }
+    }
+</div>

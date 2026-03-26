@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] ="Display Students";
+
+    var students1 = ViewBag.std;
+}
+
+<div>
+
+    @{ foreach(var student in students1){
+        <h3>@student</h3>
+    }
+        
+    }
+
+
+</div>

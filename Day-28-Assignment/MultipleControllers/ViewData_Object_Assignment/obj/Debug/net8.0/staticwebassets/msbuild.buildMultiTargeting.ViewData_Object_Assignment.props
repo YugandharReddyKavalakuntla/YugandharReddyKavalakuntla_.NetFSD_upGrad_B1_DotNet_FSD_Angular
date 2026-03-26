@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ViewData_Object_Assignment.props" />
+</Project>

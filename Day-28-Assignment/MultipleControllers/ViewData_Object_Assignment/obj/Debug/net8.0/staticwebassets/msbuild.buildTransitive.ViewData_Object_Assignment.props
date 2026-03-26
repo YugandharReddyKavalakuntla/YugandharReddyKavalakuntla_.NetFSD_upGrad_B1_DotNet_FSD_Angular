@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/ViewData_Object_Assignment.props" />
+</Project>
